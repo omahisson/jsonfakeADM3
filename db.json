@@ -14,21 +14,75 @@
   ],
   "servicos": [
     {
-      "id": 1, "nome": "Lavagem Completa", "sku": "SRV001", "valor": 45.90, "labels": ["Lavagem", "Popular"]
+      "id": 1,
+      "nome": "Lavagem Completa",
+      "sku": "SRV001",
+      "valor": 45.90,
+      "labels": ["Lavagem", "Popular"]
     },
     {
-      "id": 2, "nome": "Troca de Óleo", "sku": "SRV002", "valor": 89.90, "labels": ["Manutenção", "Essencial"]
+      "id": 2,
+      "nome": "Troca de Óleo",
+      "sku": "SRV002",
+      "valor": 89.90,
+      "labels": ["Manutenção", "Essencial"]
     }
   ],
   "produtos": [
     {
-      "id": 1, "nome": "Óleo Motor 5W30", "preco": 35.90, "estoque": 50, "labels": ["Automotivo", "Sintético"]
+      "id": 1,
+      "nome": "Óleo Motor 5W30",
+      "preco": 35.90,
+      "estoque": 50,
+      "labels": ["Automotivo", "Sintético"]
     },
     {
-      "id": 2, "nome": "Refrigerante Coca-Cola 350ml", "preco": 4.50, "estoque": 120, "labels": ["Bebidas", "Refrigerante"]
+      "id": 2,
+      "nome": "Refrigerante Coca-Cola 350ml",
+      "preco": 4.50,
+      "estoque": 120,
+      "labels": ["Bebidas", "Refrigerante"]
     },
     {
-      "id": 3, "nome": "Salgadinho Doritos", "preco": 8.90, "estoque": 5, "labels": ["Snacks", "Salgadinho"]
+      "id": 3,
+      "nome": "Salgadinho Doritos",
+      "preco": 8.90,
+      "estoque": 5,
+      "labels": ["Snacks", "Salgadinho"]
+    }
+  ],
+  "combustiveis": [
+    {
+      "id": 1,
+      "nome": "Gasolina Comum",
+      "preco": 5.49,
+      "estoque": 5000,
+      "labels": ["Gasolina"],
+      "unidade": "L"
+    },
+    {
+      "id": 2,
+      "nome": "Gasolina Aditivada",
+      "preco": 5.79,
+      "estoque": 3000,
+      "labels": ["Gasolina"],
+      "unidade": "L"
+    },
+    {
+      "id": 3,
+      "nome": "Etanol",
+      "preco": 3.89,
+      "estoque": 4500,
+      "labels": ["Etanol"],
+      "unidade": "L"
+    },
+    {
+      "id": 4,
+      "nome": "Diesel S-10",
+      "preco": 4.25,
+      "estoque": 8000,
+      "labels": ["Diesel"],
+      "unidade": "L"
     }
   ]
 }
